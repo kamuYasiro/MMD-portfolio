@@ -445,7 +445,7 @@ footer ul li{
 	width: 30px;
 	height: 30px;
 	background-color: rgba(255,255,255,0.8);
-	background-image: url(http://keylopment.com/_cms/wp-content/themes/keylopment/images/common/anchor-prev.png);
+	background-image: url(anchor-prev.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 7px auto;
@@ -461,7 +461,7 @@ footer ul li{
 	width: 30px;
 	height: 30px;
 	background-color: rgba(255,255,255,0.8);
-	background-image: url(http://keylopment.com/_cms/wp-content/themes/keylopment/images/common/anchor-next.png);
+	background-image: url(anchor-next.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 7px auto;
