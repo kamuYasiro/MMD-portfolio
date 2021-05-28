@@ -256,8 +256,8 @@
     nextArrow:'<div class="next"></div>',
 });
     
+$('.slider').slick({
     if($(window).width() < 480) {
-      $('.slider').slick({
     autoplay:true,
     autoplaySpeed:5000,
 
@@ -268,9 +268,9 @@
     
     prevArrow:'<div class="prev"></div>',
     nextArrow:'<div class="next"></div>',
-});
 	} else {
 	}
+});
 
 $(function() {
     var pagetop = $('#page_top');   
