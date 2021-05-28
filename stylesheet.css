@@ -433,12 +433,12 @@ footer ul li{
 .slider{
   width: 100%;
 }	
-.slider ul{
-	width:100%;
 .slider li{
-	width:100%;
   margin:0 10px;
   box-sizing:border-box;
+}
+.second li{
+	width:100%;
 }
 
 .prev{
