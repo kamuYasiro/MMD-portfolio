@@ -434,7 +434,7 @@ footer ul li{
   width: 100%;
 }	
 .slider li{
-  margin:0 10px;
+  margin:none;
   box-sizing:border-box;
 }
 .second li{
