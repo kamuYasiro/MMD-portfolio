@@ -255,6 +255,22 @@
     prevArrow:'<div class="prev"></div>',
     nextArrow:'<div class="next"></div>',
 });
+    
+    if($(window).width() < 480) {
+      $('.slider').slick({
+    autoplay:true,
+    autoplaySpeed:5000,
+
+    dots:true,
+
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    
+    prevArrow:'<div class="prev"></div>',
+    nextArrow:'<div class="next"></div>',
+});
+	} else {
+	}
 
 $(function() {
     var pagetop = $('#page_top');   
