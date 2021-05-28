@@ -258,16 +258,10 @@
     
 $('.slider').slick({
     if($(window).width() < 480) {
-    autoplay:true,
-    autoplaySpeed:5000,
-
-    dots:true,
-
+  	infinite: true,
+		
     slidesToShow: 1,
     slidesToScroll: 1,
-    
-    prevArrow:'<div class="prev"></div>',
-    nextArrow:'<div class="next"></div>',
 	} else {
 	}
 });
