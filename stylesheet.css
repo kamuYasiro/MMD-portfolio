@@ -403,12 +403,6 @@ footer ul li{
     font-size:24px;
   }
 	
-.slider ul{
-	width:100%;
-.slider li{
-	width:100%;
-	}
-	
   .second li img{
     height:200px;
     object-fit: cover;
@@ -435,10 +429,14 @@ footer ul li{
 
 }
 
+
 .slider{
   width: 100%;
-}
+}	
+.slider ul{
+	width:100%;
 .slider li{
+	width:100%;
   margin:0 10px;
   box-sizing:border-box;
 }
