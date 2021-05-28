@@ -402,6 +402,12 @@ footer ul li{
   h2{
     font-size:24px;
   }
+	
+.slider li{
+	width:100%;
+	margin:0;
+	}
+	
   .second li img{
     height:200px;
     object-fit: cover;
