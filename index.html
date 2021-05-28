@@ -244,7 +244,7 @@
     });
 
     $('.slider').slick({
-    if($(window).width() < 480) {
+    if($(window).max-width() < 480) {
   	infinite: true,
 		
     slidesToShow: 1,
@@ -263,9 +263,6 @@
 	}
 });
     
-$('.slider').slick({
-	}
-});
 
 $(function() {
     var pagetop = $('#page_top');   
