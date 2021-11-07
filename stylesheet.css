@@ -404,7 +404,7 @@ footer ul li{
     font-size:24px;
   }
   .second li img{
-    height:200px;
+    height:100%;
     object-fit: cover;
   }
   .second li span{
