@@ -242,6 +242,20 @@
       $(this).find('img').css('opacity','1')
     });
 
+   if (window.matchMedia('(max-width: 750px)').matches) {
+  $('.slider').slick({
+    autoplay:true,
+    autoplaySpeed:5000,
+
+    dots:true,
+
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    
+    prevArrow:'<div class="prev"></div>',
+    nextArrow:'<div class="next"></div>',
+});
+  }else{
     $('.slider').slick({
     autoplay:true,
     autoplaySpeed:5000,
@@ -254,6 +268,7 @@
     prevArrow:'<div class="prev"></div>',
     nextArrow:'<div class="next"></div>',
 });
+  }
     
 
 $(function() {
