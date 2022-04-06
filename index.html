@@ -22,8 +22,6 @@
     <div class="header-right">
       <div class="line">
         <span></span>
-        <span></span>
-        <span></span>
       </div>
       
       <div class="cross">
@@ -31,12 +29,12 @@
         <span></span>
       </div>
     </div>
+<div class="menu">
+</div>
     
   </div>
 </header>
 
-<div class="menu">
-</div>
 <div class="menu-wrapper">
   <div class="inner">
     <h3><a id="link-movie" href="#movies">MOVIES</a></h3>
@@ -220,16 +218,20 @@
     });
 
     $('.header-right').click(function(){
-      $('.menu').fadeIn();
-      $('.menu-wrapper').slideDown();
-      $('.cross span').fadeIn();
-      $('.line span').hide();
+      $('.menu').fadeToggle();
+      $('.menu-wrapper').slideToggle();
+      $('.cross span:nth-child(1)').toggleClass('up');
+      $('.cross span:nth-child(2)').toggleClass('down');
+      $('.line span').toggleClass('opacity');
+      $('.cross span').toggleClass('bgc');
     });
     $('.menu').click(function(){
-      $('.menu').fadeOut();
-      $('.menu-wrapper').slideUp();
-      $('.cross span').hide();
-      $('.line span').fadeIn();
+      $('.menu').fadeToggle();
+      $('.menu-wrapper').slideToggle();
+      $('.cross span:nth-child(1)').toggleClass('up');
+      $('.cross span:nth-child(2)').toggleClass('down');
+      $('.line span').toggleClass('opacity');
+      $('.cross span').toggleClass('bgc');
     });
 
     $('.second li').hover(
