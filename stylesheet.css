@@ -336,6 +336,7 @@ footer ul li{
   height: 30px;
   transition: all .5s;
   cursor: pointer;
+  z-index: 3;
 }
 .line span{
   display: block;
@@ -347,14 +348,9 @@ footer ul li{
   border-radius: 4px;
   transition: all .5s;
 }
-.line span:nth-child(1) {
-  top: 4px;
-}
-.line span:nth-child(2) {
+.line span{
   top: 14px;
-}
-.line span:nth-child(3) {
-  bottom: 4px;
+  transition-duration: .2s;
 }
 
 
@@ -367,16 +363,24 @@ footer ul li{
   background-color: rgb(0, 0, 0);
   border-radius: 4px;
   transition: all .5s;
-  z-index:5;
-  display:none;
 }
 .cross span:nth-child(1) {
-  top:5px;
-  transform: translateY(10px) rotate(-315deg);
+  top:4px;
+}
+.up {
+  transform:translateY(10px) rotate(-315deg);
 }
 .cross span:nth-child(2) {
-  top:25px;
+  top:24px;
+}
+.down {
   transform: translateY(-10px) rotate(315deg);
+}
+.opacity {
+  opacity:0;
+}
+.bgc {
+  background-color:white !important;
 }
 
 .header-left a{
