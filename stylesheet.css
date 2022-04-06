@@ -162,8 +162,10 @@ li{
 }
 
 .inner{
-  padding:0 10%;
   margin:0 auto;
+}
+.images .inner {
+  padding:0 16%;
 }
 .third .boxs{
   display:flex;
