@@ -392,7 +392,12 @@ footer ul li{
   text-decoration: none;
 }
 
-@media(max-width:750px){
+@media(max-width:1000px){
+	.third .box {
+		width:48%;
+}
+
+@media(max-width:768px){
 
   .header-wrapper{
     display:block;
@@ -421,9 +426,6 @@ footer ul li{
   .third .inner{
     width:90%;
   }
-  .third .box{
-    width:100%;
-  }
   footer .boxs{
     display:block;
   }
@@ -436,6 +438,14 @@ footer ul li{
   }
 
 }
+	
+	
+@media(max-width:480px){
+	
+  .third .box{
+    width:100%;
+  }
+	}
 
 .slider{
   width: 100%;
