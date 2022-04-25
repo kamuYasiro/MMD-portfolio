@@ -128,7 +128,7 @@ video{
   object-fit:cover;
 }
 
-.second,.third,footer{
+.second,.third{
   padding:100px 0 0 0;
   width:100%;
 }
